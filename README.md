@@ -15,5 +15,3 @@ Programs are compiled using the following flags
 ```
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c...
 ```
-
-[Original code](Original code from http://stackoverflow.com/a/13755911/5184480)
