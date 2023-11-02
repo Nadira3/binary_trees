@@ -22,5 +22,5 @@ size_t find_tree_size(const binary_tree_t *tree)
 size_t binary_tree_size(const binary_tree_t *tree)
 {
 	/* size of tree = size of left subtree + size of right subtree + 1(node) */
-	return (find_tree_size(tree) + 1);
+	return (tree ? find_tree_size(tree) + 1 : 0);
 }
