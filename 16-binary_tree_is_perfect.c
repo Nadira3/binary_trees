@@ -2,7 +2,7 @@
 #include "12-binary_tree_leaves.c"
 #include "9-binary_tree_height.c"
 /**
- * _pow_recursion - prints a string, followed by a new line
+ * _pow - prints a string, followed by a new line
  * @x: number
  * @y: power
  * Return: size_t
@@ -18,10 +18,12 @@ size_t _pow(size_t x, size_t y)
 
 
 /**
- * Write a function that counts the nodes with at least 1 child in a binary tree
+ * binary_tree_is_perfect - checks if a tree is perfect
  *
- * Prototype: size_t binary_tree_nodenums(const binary_tree_t *tree);
- * Where tree is a pointer to the root node of the tree to count the number of nodes
+ * Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
+ * @tree: is a pointer to the root node of the tree to check
+ *
+ * Return: 0 || 1
  * If tree is NULL, the function must return 0
  * A NULL pointer is not a node
  * A perfect binary tree of height h has 2h leaf nodes
