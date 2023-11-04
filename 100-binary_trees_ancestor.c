@@ -18,8 +18,8 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 	if (first && second)
 	{
 		if (first != binary_tree_sibling((binary_tree_t *)second))
-			return binary_trees_ancestor(first == second ? first->left : fst < snd ? first
-					: first->parent, first == second ? first->right
+			return binary_trees_ancestor(first == second ? first->left : fst <
+					snd ? first : first->parent, first == second ? first->right
 					: fst <= snd ? second->parent : second);
 		return (first->parent);
 	}
