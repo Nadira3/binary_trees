@@ -13,5 +13,5 @@ Functions to print binary trees in a pretty way
 
 Programs are compiled using the following flags
 ```
-gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c...
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c...
 ```
