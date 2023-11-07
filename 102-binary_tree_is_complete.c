@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 #include "15-binary_tree_is_full.c"
 #include "17-binary_tree_sibling.c"
+#include "5-binary_tree_is_root.c"
 
 /**
  * Write a function that checks if a binary tree is complete
